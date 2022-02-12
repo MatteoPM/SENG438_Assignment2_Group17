@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DataUtilitiesTest" project="JFreeChart" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="org.jfree.data.test.DataUtilitiesTest" time="0.001">
+    <testcase name="testCreateNumberArray_negativeElement" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCalculateRowTotal_oneRow" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCalculateColumnTotal_multipleRows" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCalculateColumnTotal_EmptyTable" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCalculateRowTotal_multipleRows" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCreateNumberArray_oneElement" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCalculateRowTotal_EmptyTable" classname="org.jfree.data.test.DataUtilitiesTest" time="0.001"/>
+    <testcase name="testCalculateColumnTotal_oneRow" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCreateNumberArray_multipleElements" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+  </testsuite>
+</testrun>

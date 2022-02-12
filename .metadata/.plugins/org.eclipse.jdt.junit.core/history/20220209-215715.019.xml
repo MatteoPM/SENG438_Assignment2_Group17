@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DataUtilitiesTest" project="JFreeChart" tests="13" started="13" failures="0" errors="1" ignored="0">
+  <testsuite name="org.jfree.data.test.DataUtilitiesTest" time="0.001">
+    <testcase name="testCreateNumberArray_negativeElement" classname="org.jfree.data.test.DataUtilitiesTest" time="0.001"/>
+    <testcase name="testCalculateRowTotal_oneRow" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCreateNumberArray2D_oneElement" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCalculateColumnTotal_multipleRows" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCalculateColumnTotal_EmptyTable" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCalculateRowTotal_multipleRows" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCreateNumberArray_oneElement" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCalculateRowTotal_EmptyTable" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testGetCumulativePercentages_oneElement" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0">
+      <error>unexpected invocation: keyedValues.getItemCount()
+expectations:
+  expected once, already invoked 1 time: keyedValues.getItemCount(); returns &lt;1&gt;
+  expected once, already invoked 1 time: keyedValues.getValue(&lt;0&gt;); returns &lt;12.0&gt;
+  expected once, never invoked: keyedValues.getKey(&lt;0&gt;); returns &lt;12.0&gt;
+what happened before this:
+  keyedValues.getItemCount()
+  keyedValues.getValue(&lt;0&gt;)
+&#13;
+	at org.jmock.internal.InvocationDispatcher.dispatch(InvocationDispatcher.java:56)&#13;
+	at org.jmock.Mockery.dispatch(Mockery.java:218)&#13;
+	at org.jmock.Mockery.access$000(Mockery.java:43)&#13;
+	at org.jmock.Mockery$MockObject.invoke(Mockery.java:258)&#13;
+	at org.jmock.internal.InvocationDiverter.invoke(InvocationDiverter.java:27)&#13;
+	at org.jmock.internal.FakeObjectMethods.invoke(FakeObjectMethods.java:38)&#13;
+	at org.jmock.lib.JavaReflectionImposteriser$1.invoke(JavaReflectionImposteriser.java:33)&#13;
+	at com.sun.proxy.$Proxy6.getItemCount(Unknown Source)&#13;
+	at org.jfree.data.DataUtilities.getCumulativePercentages(DataUtilities.java:265)&#13;
+	at org.jfree.data.test.DataUtilitiesTest.testGetCumulativePercentages_oneElement(DataUtilitiesTest.java:195)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testCreateNumberArray2D_negativeElements" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCalculateColumnTotal_oneRow" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCreateNumberArray2D_multipleElements" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="testCreateNumberArray_multipleElements" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+  </testsuite>
+</testrun>

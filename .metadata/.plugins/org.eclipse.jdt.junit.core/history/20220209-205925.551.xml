@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RangeTest" project="JFreeChart" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="org.jfree.data.test.RangeTest" time="0.001">
+    <testcase name="testGetLowerBound_lowerboundNeg" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContains_upperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContains_belowLowerBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetLowerBound_lowerbound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetUpperBound_upperbound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContains_inBetween" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContains_belowUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetLength_SameUpperLower" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContains_lowerBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetUpperBound_upperboundNeg" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+  </testsuite>
+</testrun>
